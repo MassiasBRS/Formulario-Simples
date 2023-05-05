@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(45deg, green, yellow);
+}
+
+.introducao{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 24px;
+    padding: 15px;
+}
+.botao_link{
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+
+
+#borda_login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background-color: darkorange;
+    border: 1px solid black;
+}
+
+#borda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+    padding: 60px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.input_login{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    padding: 15%;
+}
+.input_login_radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botao_submit{
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+#botao_submit:hover{
+    background-color: gray;
+}
+
+.creditos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 10%;
+}
+#creditos_paragrafo{
+    font-weight: 600;
+}

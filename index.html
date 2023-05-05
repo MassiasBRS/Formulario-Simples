@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login do Cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="abas">
+        <nav class="links">
+            <a class="botao_link" href="index2.html">Cadastro</a>
+            <a class="botao_link" href="index.html">Login</a>
+        </nav>
+    </header>
+    <main class="introducao">
+        <fieldset id="borda_login"><h2>Login</h2></fieldset>
+        <fieldset id="borda">
+            <!-- aba de login do usuário -->
+            <div class="input_login">
+                <label>Email:</label>
+                <input type="email" class="input_filho" required>
+                <label>Senha:</label>
+                <input type="password" class="input_filho" required> <br>
+
+                <div class="input_login_radio">
+                    <input type="radio" value="conectado" id="input_filho_radio">
+                    <label>Lembrar de mim</label>
+                </div> <br>
+
+                <button type="submit" id="botao_submit" onclick="entrar()">Entrar</button>
+            </div>
+        </fieldset>
+        <script src="main.js"></script>
+    </main>
+
+    <footer class="creditos">
+        <p id="creditos_paragrafo">Desenvolvido por Emanuel Messias</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Cliente</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="abas">
+        <nav class="links">
+            <a class="botao_link" href="index2.html">Cadastro</a>
+            <a class="botao_link" href="index.html">Login</a>
+        </nav>
+    </header>
+
+    <main class="introducao">
+        <div class="input_login">
+            <fieldset id="borda_cadastro"><h2>Cadastro</h2></fieldset>
+            <fieldset id="borda">
+            <label class="titulo_label">Apelido:</label>
+            <input type="text" id="nome">
+ 
+            <label class="titulo_label">Email:</label> 
+            <input type="email" class="input_filho" required>
+
+            <label class="titulo_label">Telefone:</label> 
+            <input type="tel" class="input_filho">
+
+            <label class="titulo_label">Senha:</label> 
+            <input type="password" class="input_filho" required>
+            <button type="submit" id="botao_cadastro" onclick="registrar()">Registrar-se</button>
+        </div>
+        <script src="main.js"></script>
+    </main>
+
+    <footer class="creditos">
+        <p id="creditos_paragrafo">Desenvolvido por Emanuel Messias</p>
+    </footer>
+    
+</body>
+</html>
